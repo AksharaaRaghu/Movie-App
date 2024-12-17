@@ -1,9 +1,15 @@
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:background="#40739e"
+    android:background="@drawable/bg"
     android:gravity="center"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:layout_width="69dp"
+        android:layout_height="74dp"
+        android:background="@drawable/movie"/>
 
     <TextView
         android:layout_width="match_parent"
