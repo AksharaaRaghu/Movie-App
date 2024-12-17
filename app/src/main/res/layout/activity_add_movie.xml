@@ -1,0 +1,134 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#090909"
+            android:text="Movie Name"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:layout_margin="10dp"
+            android:textColor="#090909"
+            android:id="@+id/namebutt"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#090909"
+            android:text="Language"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:layout_margin="10dp"
+            android:textColor="#090909"
+            android:id="@+id/langbutt"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#090909"
+            android:text="Director Name"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:layout_margin="10dp"
+            android:textColor="#090909"
+            android:id="@+id/directorbutt"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#090909"
+            android:text="Actor"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:layout_margin="10dp"
+            android:textColor="#090909"
+            android:id="@+id/actorbutt"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#090909"
+            android:text="Actress"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:layout_margin="10dp"
+            android:textColor="#090909"
+            android:id="@+id/actressbutt"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#090909"
+            android:text="Released Year"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:layout_margin="10dp"
+            android:textColor="#090909"
+            android:id="@+id/yearbutt"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="SUBMIT"
+            android:textColor="#090909"
+            android:background="#FFFFFF"
+            android:id="@+id/submitbutt"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="BACK TO DASHBOARD"
+            android:textColor="#090909"
+            android:background="#FFFFFF"
+            android:id="@+id/backtobutt"
+            />
+    </LinearLayout>
+</ScrollView>
