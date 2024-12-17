@@ -53,6 +53,7 @@
         android:id="@+id/password"
         android:textColor="#090909"
         android:inputType="textPassword"
+        android:drawableLeft="@drawable/baseline_accessibility_24"
         />
 
     <androidx.appcompat.widget.AppCompatButton
